@@ -213,10 +213,10 @@ body {
 
 
 .light {
-  --clr-bg: #fffafa;
+  --clr-bg: #CFE6EC;
   --clr-bg-alt: #fff;
   --clr-fg: #767676;
-  --clr-fg-alt: #03dac6;
+  --clr-fg-alt: #ECB9CF;
   --clr-primary: #ff0266;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -232,11 +232,16 @@ body {
 }
 
 
-.photos {
-  content: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKWb7XtbPbXjJ3ehSfW8qz4fnDuYvx56gEC48n45mBWggWo5otkhZSYksGdnd8H0sSEAo&usqp=CAU");
+.photos-light {  
+  content: url("https://cdn-icons-png.flaticon.com/128/1687/1687788.png"); 
   width: 75px;
   height: auto;
-  
+}
+
+.photos-dark {
+  content: url(https://cdn-icons-png.flaticon.com/128/1687/1687737.png);
+  width: 75px;
+  height: auto;  
 }
 
 /* end themes */
@@ -253,7 +258,7 @@ body {
 
 .toppad {
   padding: 5em;
-  width: 50%;
+  width: 50vh;
   margin: auto;
 }
 
@@ -267,7 +272,7 @@ body {
 
 .about {
   flex-direction: column;
-  width: 90%;
+  width: 50%;
   padding: 30px;
   margin: 0 auto;
   z-index: 2;

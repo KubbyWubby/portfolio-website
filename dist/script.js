@@ -29,7 +29,9 @@ navItems.forEach(navItem => {
 
 function btnTheme() {
   var element = document.body;
-  element.classList.toggle("dark2");
+  var button = document.getElementById('photo');
+  element.classList.toggle('dark2');
+  button.classList.toggle('photos-dark');
 }
 
 

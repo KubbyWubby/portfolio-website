@@ -95,3 +95,10 @@ const observer = new IntersectionObserver(entries => {
 items.forEach(item => {
   observer.observe(item);
 });
+
+//jeremy audio
+jeremy = document.getElementById("jeremy");
+jeremy.addEventListener("click", function() {
+  var jeremySucks = document.getElementById("jeremy-sucks");
+  jeremySucks.play();
+});
